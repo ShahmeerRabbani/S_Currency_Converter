@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+  <p>
+    <h1>Simple Currency Converter</h1>
+  </p>
+  <div class="box">
+    <h3>Currency Converter</h3>
+    <p style="display: flex; gap: 15px;">
+      <input type="number" id="num" value="0" oninput="Convert()">
+
+      <select name="" id="selected">
+        <option value="USD">USD - US Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+        <option value="PKR">PKR - Pakistani Rupee</option>
+        <option value="INR">INR - Indian Rupee</option>
+      </select>
+    </p>
+    <p>
+      <select name="" id="targeted">
+        <option value="USD">USD - US Dollar</option>
+        <option value="EUR">EUR - Euro</option>
+        <option value="GBP">GBP - British Pound</option>
+        <option value="JPY">JPY - Japanese Yen</option>
+        <option value="PKR">PKR - Pakistani Rupee</option>
+        <option value="INR">INR - Indian Rupee</option>
+      </select>
+
+    </p>
+    <p id="result">
+      1 USD = 1 USD
+    </p>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
